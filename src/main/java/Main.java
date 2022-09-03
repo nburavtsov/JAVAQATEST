@@ -20,5 +20,11 @@ public class Main {
         actual = service.calculate(200,false);
         System.out.println(expected + " == ? == " + actual);
 
+        amount = 400_000;
+        registered = false;
+        expected = 1;
+        actual = service.calculate(400_000, false);
+
+        //System.out.println(expected + "==?=="+actual);
     }
 }
